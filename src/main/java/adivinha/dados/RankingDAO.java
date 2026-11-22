@@ -50,7 +50,7 @@ public class RankingDAO {
 
         List<Partida> lista = new ArrayList<>();
         String corpo = resp.body().trim();
-        corpo = corpo.substring(1, corpo.length() - 1);   // tira o [ e o ]
+        corpo = corpo.substring(1, corpo.length() - 1);
         if (corpo.isBlank()) {
             return lista;
         }
