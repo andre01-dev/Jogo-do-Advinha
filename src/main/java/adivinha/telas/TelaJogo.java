@@ -64,7 +64,7 @@ public class TelaJogo extends javax.swing.JFrame {
         BtRanking = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Jogo do Advinha");
+        setTitle("Jogo do Adivinha");
         setAutoRequestFocus(false);
         setBackground(new java.awt.Color(236, 232, 244));
         setResizable(false);
