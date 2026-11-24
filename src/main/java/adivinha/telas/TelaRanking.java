@@ -92,7 +92,7 @@ public class TelaRanking extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(74, 47, 0));
         jLabel3.setText("Sem conexão com a internet");
 
-        jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 16)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(74, 47, 0));
         jLabel4.setText("Não foi possível carregar o ranking agora. Verifique sua conexão e clique em Atualizar.");
 
