@@ -51,7 +51,7 @@
                   <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="102" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="427" max="32767" attributes="0"/>
               </Group>
@@ -202,7 +202,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
-            <Component class="javax.swing.JTable" name="jTable1">
+            <Component class="javax.swing.JTable" name="tbRanking">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -265,7 +265,7 @@
                 </Property>
               </Properties>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="jTable1.getTableHeader().setBackground(new java.awt.Color(245,240,255));&#xd;&#xa;jTable1.getTableHeader().setForeground(new java.awt.Color(48, 0, 72));&#xd;&#xa;jTable1.getTableHeader().setFont(new java.awt.Font(&quot;Times New Roman&quot;, java.awt.Font.BOLD, 18));&#xd;&#xa;jTable1.getTableHeader().setReorderingAllowed(false);&#xd;&#xa;jTable1.getTableHeader().setResizingAllowed(false);"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="tbRanking.getTableHeader().setBackground(new java.awt.Color(245,240,255));&#xd;&#xa;tbRanking.getTableHeader().setForeground(new java.awt.Color(48, 0, 72));&#xd;&#xa;tbRanking.getTableHeader().setFont(new java.awt.Font(&quot;Times New Roman&quot;, java.awt.Font.BOLD, 18));&#xd;&#xa;tbRanking.getTableHeader().setReorderingAllowed(false);&#xd;&#xa;tbRanking.getTableHeader().setResizingAllowed(false);&#xd;&#xa;javax.swing.table.DefaultTableCellRenderer centro = new javax.swing.table.DefaultTableCellRenderer();&#xd;&#xa;centro.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);&#xd;&#xa;tbRanking.setDefaultRenderer(Object.class, centro);&#xd;&#xa;tbRanking.setDefaultRenderer(Number.class, centro);"/>
               </AuxValues>
             </Component>
           </SubComponents>
@@ -286,7 +286,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="jButton1">
+            <Component class="javax.swing.JButton" name="btAtualizar">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="47" green="1" red="2f" type="rgb"/>
@@ -303,7 +303,7 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btAtualizarActionPerformed"/>
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
@@ -311,7 +311,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton2">
+            <Component class="javax.swing.JButton" name="btFechar">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f0" green="f8" red="ff" type="rgb"/>
@@ -327,6 +327,9 @@
                   <Dimension value="[136, 48]"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btFecharActionPerformed"/>
+              </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
                   <BorderConstraints direction="East"/>
